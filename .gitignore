@@ -1,0 +1,29 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.spec
+build/
+
+# ===== 打包产物（二进制 EXE 通过 GitHub Releases 分发，不入库）=====
+dist/
+
+# ===== 运行时生成的日志目录 =====
+JML工具日志/
+
+# ===== 临时测试 / 演示产物（自测与截图脚本产生，不入库）=====
+_selftest_photos/
+_gui_test_photos/
+_apptest_photos/
+_apptest_logs/
+演示照片集/
+演示照片集_批量/
+
+# ===== 历史二进制版本备份（含早期浏览器版 EXE，不入库）=====
+backup/
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
